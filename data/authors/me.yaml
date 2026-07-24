@@ -1,116 +1,136 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  display: Sandunika Ranasinghe
+  given: Sandunika
+  family: Ranasinghe
+  alternate: ""
+  pronunciation: ""
+
+role: Research and Development Engineer
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a Research and Development Engineer at Farbe Technologies and a
+  Volunteer Researcher at the Multidisciplinary AI Research Centre,
+  University of Peradeniya.
+
+  My research focuses on generative modelling, computational imaging,
+  signal and image processing, and machine learning for real-world sensing
+  applications. I am particularly interested in diffusion models, implicit
+  neural representations, historical-image restoration, multispectral
+  imaging, and theoretically grounded machine-learning methods.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Farbe Technologies
+    url: ""
+  - name: Multidisciplinary AI Research Centre, University of Peradeniya
+    url: ""
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:sandunikaranasinghe945@gmail.com
+    label: Email
+
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/sandunikalakmali
+    label: GitHub
+
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://lk.linkedin.com/in/sandunika-ranasinghe-008142239
+    label: LinkedIn
+
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=OcVajRwAAAAJ&hl=en
+    label: Google Scholar
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Diffusion Models
+  - Computational Imaging
+  - Implicit Neural Representations
+  - Image and Signal Processing
+  - Applied Mathematics
+  - Multispectral Imaging
+  - Generative Modelling
+  - Machine Learning for Sensing Systems
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: B.Sc. Eng. (Hons.) in Electrical and Electronic Engineering
+    institution: University of Peradeniya
+    start: 2021-03-01
+    end: 2025-08-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      First Class Honours  
+      GPA: 3.95/4.00  
+      Class Rank: 4/115
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Research and Development Engineer
+    org: Farbe Technologies
+    start: 2025-11-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Developing AI-driven signal and image-processing solutions for
+      industrial applications.
+
+  - role: Volunteer Researcher
+    org: Multidisciplinary AI Research Centre, University of Peradeniya
+    start: 2023-06-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Conducting research in diffusion-based generative AI and
+      multispectral imaging for agricultural and environmental monitoring.
+
+  - role: Teaching Assistant
+    org: Department of Electrical and Electronic Engineering, University of Peradeniya
+    start: 2025-08-01
+    end: 2025-10-31
+    summary: |
+      Supported teaching activities for electrical engineering modules.
+
+  - role: Trainee Research and Development Engineer
+    org: SLT Digital Lab
+    start: 2023-07-01
+    end: 2023-10-31
+    summary: |
+      Worked on object detection, tracking, model deployment and machine-learning
+      infrastructure using YOLOv8, ONNX, Seldon Core and PostgreSQL.
 
 skills:
-  - name: Technical Skills
+  - name: Machine Learning
+    items:
+      - label: PyTorch
+        level: 5
+      - label: TensorFlow
+        level: 5
+      - label: Scikit-learn
+        level: 5
+      - label: Computer Vision
+        level: 4
+
+  - name: Programming and Tools
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: C
         level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: Git
         level: 4
-      - label: Grant Proposals
+      - label: LaTeX
         level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+      - label: SQL and PostgreSQL
+        level: 4
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Second Runner-Up, Manamperi Award
+    awarder: Best Undergraduate Project in Sri Lanka
+    date: "2025-01-01"
+    summary: |
+      Recognised for the final-year project on multispectral imaging.
+    icon: hero/trophy
+
+  - title: Silver Award
+    awarder: Sahasak Nimavum Inventions and Innovations Competition
+    date: "2024-01-01"
+    summary: |
+      Awarded in the Engineering category for the multispectral-imaging project.
     icon: hero/trophy
