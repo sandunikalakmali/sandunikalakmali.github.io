@@ -26,8 +26,36 @@ sections:
     content:
       title: Awards
       username: me
-  - block: resume-languages
+  - block: markdown
     content:
-      title: Languages
-      username: me
+      title: Service & Leadership
+      text: |
+        ### AI Workshop Speaker and Volunteer
+        **Multidisciplinary AI Research Centre, University of Peradeniya · 2025**
+
+        Shared knowledge on generative AI and multispectral imaging with school
+        students through educational workshops.
+
+        ### Executive Committee Member
+        **IET on Campus, University of Peradeniya · June 2022 – May 2023**
+
+        Helped organize technical events and workshops for undergraduates.
+
+        ### Reporting Team Member
+        **IEEE Robotics and Automation Society, University of Peradeniya · 2022**
+
+        Supported technical-event coordination, editorial content, and
+        documentation.
+
+        ### Team Member, OGV/H4TF Customer Experience
+        **AIESEC in Kandy · 2022**
+
+        Supported customer-experience tracking for AIESEC projects.
+
+        ### Executive Committee Member
+        **Astronomical Society, Mahamaya Girls' College, Kandy · 2018–2019**
+
+        Organized astronomy nights and educational workshops.
+    design:
+      columns: "1"
 ---

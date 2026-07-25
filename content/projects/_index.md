@@ -8,7 +8,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Research and engineering projects spanning generative AI, computational imaging, intelligent sensing, and embedded systems.
       filters:
         folders:
           - projects

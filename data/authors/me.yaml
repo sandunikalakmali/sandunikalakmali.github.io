@@ -65,35 +65,45 @@ education:
       GPA: 3.95/4.00  
       Class Rank: 4/115
 
+  - degree: G.C.E. Advanced Level
+    institution: Mahamaya Girls' College, Kandy
+    end: 2019-12-31
+    summary: |
+      Physics (A), Chemistry (A), Combined Mathematics (A)
+
+      National Rank: 167 out of 32,000+ candidates
+
 experience:
   - role: Research and Development Engineer
     org: Farbe Technologies
     start: 2025-11-01
     summary: |
-      Developing AI-driven signal and image-processing solutions for
-      industrial applications.
+      Develop AI-driven signal- and image-processing solutions for industrial
+      applications.
 
   - role: Volunteer Researcher
     org: Multidisciplinary AI Research Centre, University of Peradeniya
     start: 2023-06-01
     summary: |
-      Conducting research in diffusion-based generative AI and
-      multispectral imaging for agricultural and environmental monitoring.
+      Contribute to theoretical and applied machine-learning research across
+      diffusion-based generative AI and multispectral imaging for agricultural
+      and environmental monitoring.
 
   - role: Teaching Assistant
     org: Department of Electrical and Electronic Engineering, University of Peradeniya
     start: 2025-08-01
     end: 2025-10-31
     summary: |
-      Supported teaching activities for electrical engineering modules.
+      Guided students in EE358 Power and EE1010 Electricity modules.
 
   - role: Trainee Research and Development Engineer
     org: SLT Digital Lab
     start: 2023-07-01
     end: 2023-10-31
     summary: |
-      Worked on object detection, tracking, model deployment and machine-learning
-      infrastructure using YOLOv8, ONNX, Seldon Core and PostgreSQL.
+      Contributed to the Deep Learning for RACOON AI project, including object
+      detection and tracking with YOLOv8, model interoperability with ONNX,
+      deployment with Seldon Core, and PostgreSQL database management.
 
 skills:
   - name: Machine Learning
@@ -102,9 +112,15 @@ skills:
         level: 5
       - label: TensorFlow
         level: 5
+      - label: Keras
+        level: 4
       - label: Scikit-learn
         level: 5
       - label: Computer Vision
+        level: 4
+      - label: OpenCV
+        level: 4
+      - label: YOLOv8
         level: 4
 
   - name: Programming and Tools
@@ -113,11 +129,28 @@ skills:
         level: 5
       - label: C
         level: 4
+      - label: Assembly
+        level: 3
       - label: Git
         level: 4
       - label: LaTeX
         level: 4
+      - label: SciPy
+        level: 4
+      - label: ONNX
+        level: 4
+      - label: Seldon Core
+        level: 3
       - label: SQL and PostgreSQL
+        level: 4
+
+  - name: Research
+    items:
+      - label: Academic Research
+        level: 5
+      - label: Technical Writing
+        level: 4
+      - label: Project Documentation
         level: 4
 
 awards:
@@ -133,4 +166,29 @@ awards:
     date: "2024-01-01"
     summary: |
       Awarded in the Engineering category for the multispectral-imaging project.
+    icon: hero/trophy
+
+  - title: Second Runner-Up, Healthcare Category
+    awarder: ACES Hackathon
+    date: "2023-01-01"
+    summary: |
+      Placed second runner-up in the healthcare category at the hackathon
+      organized by the Association of Computer Engineering Students,
+      University of Peradeniya.
+    icon: hero/trophy
+
+  - title: Finalist
+    awarder: Predicta v1.0
+    date: "2023-01-01"
+    summary: |
+      Selected as a finalist in the competition organized by the IEEE Student
+      Branch of the University of Peradeniya.
+    icon: hero/trophy
+
+  - title: Finalist
+    awarder: IEEE Electronic Design Competition
+    date: "2023-01-01"
+    summary: |
+      Selected as a finalist in the competition organized by the IEEE Sri Lanka
+      Section.
     icon: hero/trophy
