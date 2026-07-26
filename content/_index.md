@@ -48,6 +48,21 @@ sections:
     design:
       columns: '1'
   - block: collection
+    id: news
+    content:
+      title: Latest News
+      text: Recent research, publications, awards, and professional updates.
+      filters:
+        folders:
+          - news
+      count: 4
+    design:
+      view: compact
+      columns: 1
+      show_date: true
+      show_read_time: false
+      show_read_more: false
+  - block: collection
     id: papers
     content:
       title: Featured Publications
