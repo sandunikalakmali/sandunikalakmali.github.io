@@ -61,17 +61,33 @@ education:
     start: 2021-03-01
     end: 2025-08-31
     summary: |
-      First Class Honours  
-      GPA: 3.95/4.00  
-      Class Rank: 4/115
+      **First Class Honours**
+
+      GPA: **3.95/4.00** · Class Rank: **4/115**
+
+      📄 [View Academic Transcript](/uploads/sandunika-ranasinghe-university-transcript.pdf)
 
   - degree: G.C.E. Advanced Level
     institution: Mahamaya Girls' College, Kandy
     end: 2019-12-31
     summary: |
-      Physics (A), Chemistry (A), Combined Mathematics (A)
+      **3 Distinction (A) Passes**
 
-      National Rank: 167 out of 32,000+ candidates
+      Physics · Chemistry · Combined Mathematics
+
+      National Rank: **167 out of 32,000+ candidates**
+
+      📄 [View G.C.E. A/L Results](/uploads/sandunika-ranasinghe-al-results.pdf)
+
+  - degree: G.C.E. Ordinary Level
+    institution: Mahamaya Girls' College, Kandy
+    end: 2016-12-31
+    summary: |
+      **9 Distinction (A) Passes**
+
+      Completed all nine subjects with the highest grade.
+
+      📄 [View G.C.E. O/L Results](/uploads/sandunika-ranasinghe-ol-results.pdf)
 
 experience:
   - role: Research and Development Engineer
