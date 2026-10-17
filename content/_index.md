@@ -47,6 +47,8 @@ sections:
         environmental, and industrial applications.
     design:
       columns: '1'
+      spacing:
+        padding: ['3rem', '0', '2rem', '0']
   - block: collection
     id: news
     content:
@@ -57,7 +59,7 @@ sections:
           - news
       count: 4
     design:
-      view: compact
+      view: date-title-summary
       columns: 1
       show_date: true
       show_read_time: false
@@ -73,8 +75,10 @@ sections:
           - Peer-Reviewed
         featured_only: true
     design:
-      view: article-grid
-      columns: 2
+      view: citation
+      columns: 1
+      spacing:
+        padding: ['3rem', '0', '2rem', '0']
   - block: collection
     content:
       title: Recent Publications
@@ -87,4 +91,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      spacing:
+        padding: ['2rem', '0', '3rem', '0']
 ---
