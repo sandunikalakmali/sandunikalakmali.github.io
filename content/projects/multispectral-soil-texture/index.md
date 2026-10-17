@@ -22,4 +22,4 @@ This project combines reflectance multispectral imaging with machine-learning mo
 
 ## Result
 
-The resulting peer-reviewed study is published in *IEEE Access*. Its code is available in the linked repository. A suitable reusable project figure is not currently stored there, so the listing uses a text-only card.
+The resulting peer-reviewed study is published in *IEEE Access*. Its code is available in the linked repository. The project figure shows the multispectral imaging system documented in the paper.

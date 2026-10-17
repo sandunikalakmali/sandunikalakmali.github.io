@@ -1,9 +1,8 @@
 {{ $item := .item }}
 {{ $pub := partial "functions/resolve_publication.html" $item }}
-{{ $has_attachments := partial "functions/has_attachments" $item }}
 {{ $is_under_review := eq $item.Params.status "Under Review" }}
 
-<article class="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/70 sm:p-8">
+<article class="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/70{{ if not $is_under_review }} sm:p-8{{ end }}">
   <div class="flex flex-col gap-3">
     {{ if $is_under_review }}
       <div>
@@ -21,7 +20,7 @@
 
     <div class="text-sm font-medium text-zinc-600 dark:text-zinc-400">
       {{ if $is_under_review }}
-        Submitted to the 15th International Conference on Learning Representations (ICLR 2027)
+        15th International Conference on Learning Representations
       {{ else }}
         {{ with $pub.display_short }}{{ . | markdownify }} · {{ end }}{{ $item.Date.Format "2006" }}
       {{ end }}
@@ -31,10 +30,8 @@
       <p class="text-[0.95rem] leading-7 text-zinc-600 dark:text-zinc-400">{{ . | markdownify }}</p>
     {{ end }}
 
-    {{ if $has_attachments }}
-      <div class="flex flex-wrap gap-x-4 gap-y-2 border-t border-zinc-100 pt-4 text-sm dark:border-zinc-800">
-        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-      </div>
-    {{ end }}
+    <div class="flex flex-wrap gap-x-4 gap-y-2 border-t border-zinc-100 pt-4 text-sm dark:border-zinc-800">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
   </div>
 </article>

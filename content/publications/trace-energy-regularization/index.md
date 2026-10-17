@@ -18,7 +18,7 @@ publication:
 peer_reviewed: false
 status: "Under Review"
 featured: false
-summary: "A manuscript on trace-energy regularization for improving the fidelity of denoising diffusion probabilistic models. Under review at ICLR 2027."
+summary: "Trace-energy regularization for improving the fidelity of denoising diffusion probabilistic models."
 tags:
   - Under Review
   - Manuscript
