@@ -22,12 +22,11 @@ tags:
   - Diffusion Models
   - Audio Generation
   - Generative AI
+  - Homepage 2026
 hugoblox:
   ids:
     doi: 10.1109/ICIIS69028.2026.11450741
 links:
-  - type: source
-    url: https://doi.org/10.1109/ICIIS69028.2026.11450741
   - type: code
     url: https://github.com/sandunikalakmali/conditional-audiogen
 ---

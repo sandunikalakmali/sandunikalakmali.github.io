@@ -28,9 +28,6 @@ tags:
 hugoblox:
   ids:
     doi: 10.1109/ICATC64549.2024.11025290
-links:
-  - type: source
-    url: https://doi.org/10.1109/ICATC64549.2024.11025290
 ---
 
 Conference paper on estimating soil moisture content using deep learning and reflectance multispectral imagery.

@@ -3,7 +3,7 @@ title: "Trace Energy Regularization for Diffusion Models"
 date: 2025-01-01
 weight: 20
 summary: "Energy-aware regularization for improving generative fidelity in denoising diffusion probabilistic models."
-tags: [Research, Diffusion Models, Generative Modelling, Energy Regularization]
+tags: [Research, Diffusion Models, Generative Modelling, Energy Regularization, Homepage Featured]
 featured: true
 links:
   - type: code

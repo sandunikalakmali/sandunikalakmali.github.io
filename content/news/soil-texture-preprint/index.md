@@ -1,6 +1,7 @@
 ---
 title: "New preprint on multispectral soil texture characterization"
 date: 2026-02-26
+weight: 20
 summary: "Our work on reflectance multispectral imaging for soil composition estimation and USDA texture classification is now available on arXiv."
 authors:
   - me
@@ -9,6 +10,9 @@ tags:
   - Multispectral Imaging
   - Machine Learning
 ---
+
+This was the original preprint announcement. The work has since been published
+in *IEEE Access*.
 
 Our preprint, **“Reflectance Multispectral Imaging for Soil Composition
 Estimation and USDA Texture Classification,”** is now available on

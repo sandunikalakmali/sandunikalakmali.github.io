@@ -3,7 +3,7 @@ title: "Feature-Conditioned Diffusion for Audio Generation"
 date: 2025-01-01
 weight: 30
 summary: "Temporal feature conditioning for diffusion-based audio generation and more stable waveform structure."
-tags: [Research, Diffusion Models, Audio Signal Processing, Temporal Representation Learning]
+tags: [Research, Diffusion Models, Audio Signal Processing, Temporal Representation Learning, Homepage Featured]
 featured: true
 links:
   - type: code

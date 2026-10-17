@@ -8,6 +8,7 @@ tags:
   - Computational Imaging
   - Implicit Neural Representations
   - Image Restoration
+  - Homepage Featured
 featured: true
 ---
 

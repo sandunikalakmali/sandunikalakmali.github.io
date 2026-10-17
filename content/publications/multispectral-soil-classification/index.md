@@ -24,12 +24,10 @@ tags:
   - Multispectral Imaging
   - Machine Learning
   - Soil Classification
+  - Homepage 2026
 hugoblox:
   ids:
     doi: 10.1109/ICIIS69028.2026.11450634
-links:
-  - type: source
-    url: https://doi.org/10.1109/ICIIS69028.2026.11450634
 ---
 
 Conference paper on multispectral sensing and machine learning for soil classification across moisture-induced spectral changes.
