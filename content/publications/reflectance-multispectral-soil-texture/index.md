@@ -33,16 +33,12 @@ tags:
   - Multispectral Imaging
   - Machine Learning
   - Soil Texture Classification
+  - Homepage 2026
 hugoblox:
   ids:
     doi: 10.1109/ACCESS.2026.3721276
     arxiv: 2602.22829
 links:
-  - type: source
-    url: https://doi.org/10.1109/ACCESS.2026.3721276
-  - type: preprint
-    provider: arxiv
-    id: 2602.22829
   - type: pdf
     url: https://arxiv.org/pdf/2602.22829
 ---

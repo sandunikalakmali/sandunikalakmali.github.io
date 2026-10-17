@@ -50,47 +50,92 @@ sections:
       spacing:
         padding: ['3rem', '0', '2rem', '0']
   - block: collection
+    id: featured-projects
+    content:
+      title: Featured Research Projects
+      text: Selected work in generative modelling, computational imaging, and intelligent sensing.
+      filters:
+        folders:
+          - projects
+        tags:
+          - Homepage Featured
+      count: 0
+      sort_by: Weight
+      sort_ascending: true
+      archive:
+        enable: true
+        link: /projects/
+        text: View All Projects
+    design:
+      view: project-card
+      columns: 2
+      fill_image: false
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+      spacing:
+        padding: ['3rem', '0', '3rem', '0']
+  - block: collection
+    id: manuscripts
+    content:
+      title: Research Manuscripts Under Review
+      text: Ongoing research submitted to ICLR 2027; these manuscripts have not been accepted or published.
+      filters:
+        folders:
+          - publications
+        tags:
+          - Under Review
+      count: 0
+      sort_by: Weight
+      sort_ascending: true
+      archive:
+        enable: true
+        link: /publications/
+        text: View All Publications
+    design:
+      view: publication-list
+      columns: 1
+      spacing:
+        padding: ['3rem', '0', '3rem', '0']
+  - block: collection
     id: news
     content:
       title: Latest News
       text: Recent research, publications, awards, and professional updates.
+      count: 4
+      sort_by: Weight
+      sort_ascending: true
       filters:
         folders:
           - news
-      count: 4
     design:
       view: date-title-summary
       columns: 1
       show_date: true
       show_read_time: false
       show_read_more: false
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        tags:
-          - Peer-Reviewed
-        featured_only: true
-    design:
-      view: citation
-      columns: 1
       spacing:
-        padding: ['3rem', '0', '2rem', '0']
+        padding: ['3rem', '0', '3rem', '0']
   - block: collection
+    id: recent-publications
     content:
       title: Recent Publications
-      text: ''
+      text: Peer-reviewed journal and conference papers published in 2026.
       filters:
         folders:
           - publications
         tags:
-          - Peer-Reviewed
-        exclude_featured: false
+          - Homepage 2026
+      count: 0
+      sort_by: Weight
+      sort_ascending: true
+      archive:
+        enable: true
+        link: /publications/
+        text: View All Publications
     design:
-      view: citation
+      view: publication-list
+      columns: 1
       spacing:
         padding: ['2rem', '0', '3rem', '0']
 ---

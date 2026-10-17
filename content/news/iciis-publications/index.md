@@ -1,6 +1,7 @@
 ---
 title: "Two papers published in the ICIIS 2025 proceedings"
 date: 2026-01-16
+weight: 30
 summary: "New IEEE conference papers cover feature-conditioned diffusion for audio generation and moisture-aware multispectral soil classification."
 authors:
   - me

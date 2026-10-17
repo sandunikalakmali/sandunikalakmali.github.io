@@ -1,5 +1,6 @@
 ---
 title: Publications
+summary: Peer-reviewed publications and research manuscripts by Sandunika Ranasinghe.
 cms_exclude: true
 type: landing
 
@@ -19,13 +20,15 @@ sections:
         tags:
           - Peer-Reviewed
     design:
-      view: citation
+      view: publication-list
       columns: 1
+      spacing:
+        padding: ['3rem', '0', '2rem', '0']
 
   - block: collection
     content:
-      title: Manuscripts Under Review
-      text: Submitted manuscripts that have not been accepted or published.
+      title: Research Manuscripts Under Review
+      text: Submitted to ICLR 2027. These manuscripts have not been accepted or published.
       count: 0
       sort_by: Weight
       sort_ascending: true
@@ -35,6 +38,17 @@ sections:
         tags:
           - Under Review
     design:
-      view: citation
+      view: publication-list
       columns: 1
+      spacing:
+        padding: ['2rem', '0', '2rem', '0']
+
+  - block: markdown
+    content:
+      text: |
+        [View all publications on Google Scholar](https://scholar.google.com/citations?user=OcVajRwAAAAJ&hl=en)
+    design:
+      columns: '1'
+      spacing:
+        padding: ['1rem', '0', '2rem', '0']
 ---

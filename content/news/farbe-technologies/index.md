@@ -1,6 +1,7 @@
 ---
 title: "Joined Farbe Technologies as a Research and Development Engineer"
 date: 2025-11-01
+weight: 40
 summary: "Beginning a new role developing AI-driven signal- and image-processing solutions for industrial applications."
 authors:
   - me

@@ -3,7 +3,7 @@ title: "Multispectral Soil Texture Classification and Composition Prediction"
 date: 2026-01-01
 weight: 50
 summary: "A field-deployable multispectral and machine-learning framework for soil composition prediction and USDA texture classification."
-tags: [Research, Multispectral Imaging, Machine Learning, Soil Texture Classification]
+tags: [Research, Multispectral Imaging, Machine Learning, Soil Texture Classification, Homepage Featured]
 featured: true
 links:
   - type: code
