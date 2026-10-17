@@ -18,7 +18,7 @@ publication:
 peer_reviewed: false
 status: "Under Review"
 featured: false
-summary: "A manuscript on implicit neural representations for image colorization through colour guidance. Under review at ICLR 2027."
+summary: "Implicit neural representations for image colorization through colour guidance."
 tags:
   - Under Review
   - Manuscript
