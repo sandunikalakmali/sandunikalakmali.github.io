@@ -11,14 +11,17 @@ authors:
   - Fadi Kizel
   - Gayathri Thilakarathne
 date: "2024-12-19T00:00:00Z"
+weight: 40
 publication_types: ["paper-conference"]
 publication:
   name: "2024 International Conference on Advances in Technology and Computing (ICATC)"
   short_name: "ICATC 2024"
   pages: "1–6"
 peer_reviewed: true
-featured: true
+featured: false
 tags:
+  - Peer-Reviewed
+  - Conference Paper
   - Multispectral Imaging
   - Deep Learning
   - Soil Moisture Estimation

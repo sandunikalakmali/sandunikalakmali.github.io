@@ -6,16 +6,19 @@ authors:
   - Senith Jayakody
   - Buwaneka Epakanda
   - Roshan Godaliyadda
-  - Mervyn Parakrama Ekanayake
+  - Mervyn Parakrama B. Ekanayake
 date: "2026-01-16T00:00:00Z"
+weight: 20
 publication_types: ["paper-conference"]
 publication:
   name: "2025 IEEE 19th International Conference on Industrial and Information Systems (ICIIS)"
   short_name: "ICIIS 2025"
   pages: "162–167"
 peer_reviewed: true
-featured: true
+featured: false
 tags:
+  - Peer-Reviewed
+  - Conference Paper
   - Diffusion Models
   - Audio Generation
   - Generative AI
@@ -25,6 +28,8 @@ hugoblox:
 links:
   - type: source
     url: https://doi.org/10.1109/ICIIS69028.2026.11450741
+  - type: code
+    url: https://github.com/sandunikalakmali/conditional-audiogen
 ---
 
 Conference paper on feature-conditioned diffusion methods for structured audio generation.

@@ -69,6 +69,8 @@ sections:
       filters:
         folders:
           - publications
+        tags:
+          - Peer-Reviewed
         featured_only: true
     design:
       view: article-grid
@@ -80,6 +82,8 @@ sections:
       filters:
         folders:
           - publications
+        tags:
+          - Peer-Reviewed
         exclude_featured: false
     design:
       view: citation

@@ -7,17 +7,20 @@ authors:
   - Senith Jayakody
   - Roshan Godaliyadda
   - Vijitha Herath
-  - Mervyn Parakrama Ekanayake
+  - Mervyn Parakrama B. Ekanayake
   - Sinniah Navaratnarajah
 date: "2026-01-16T00:00:00Z"
+weight: 30
 publication_types: ["paper-conference"]
 publication:
   name: "2025 IEEE 19th International Conference on Industrial and Information Systems (ICIIS)"
   short_name: "ICIIS 2025"
   pages: "569–574"
 peer_reviewed: true
-featured: true
+featured: false
 tags:
+  - Peer-Reviewed
+  - Conference Paper
   - Multispectral Imaging
   - Machine Learning
   - Soil Classification
