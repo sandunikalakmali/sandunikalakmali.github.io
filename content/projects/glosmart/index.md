@@ -3,6 +3,7 @@ title: "GloSmart"
 date: 2024-01-01
 summary: "An embedded cyclist-safety system implemented with microcontroller and assembly-language programming."
 tags:
+  - Engineering
   - Embedded Systems
   - Microcontrollers
   - Assembly

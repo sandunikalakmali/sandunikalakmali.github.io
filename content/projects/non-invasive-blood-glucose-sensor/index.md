@@ -3,6 +3,7 @@ title: "Non-Invasive Blood Glucose Sensor"
 date: 2023-01-01
 summary: "A spectroscopy-based approach to estimating glucose concentration without skin penetration."
 tags:
+  - Engineering
   - Spectroscopy
   - Signal Processing
   - Biomedical Sensing

@@ -1,4 +1,4 @@
 ---
 title: "News"
-view: compact
+view: date-title-summary
 ---

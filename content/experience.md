@@ -4,7 +4,7 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: 'comfortable'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -15,17 +15,32 @@ sections:
       username: me
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: '2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-skills
+  - block: markdown
     content:
-      title: Skills & Hobbies
-      username: me
+      title: Skills
+      text: |
+        ### Research domains
+
+        Computational imaging · Generative modelling · Diffusion models · Implicit neural representations · Multispectral imaging · Computer vision · Image and signal processing · Machine learning for sensing systems
+
+        ### Frameworks and libraries
+
+        PyTorch · TensorFlow · Keras · Scikit-learn · OpenCV · YOLOv8 · SciPy · ONNX · Seldon Core
+
+        ### Programming and research tools
+
+        Python · C · Assembly · Git · LaTeX · SQL · PostgreSQL · Academic research · Technical writing · Project documentation
+    design:
+      columns: '1'
   - block: resume-awards
     content:
       title: Awards
       username: me
+    design:
+      date_format: '2006'
   - block: markdown
     content:
       title: Service & Leadership
