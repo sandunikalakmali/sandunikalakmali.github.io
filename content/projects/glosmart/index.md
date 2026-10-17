@@ -8,6 +8,7 @@ tags:
   - Microcontrollers
   - Assembly
 featured: false
+cover_kind: illustrative
 ---
 
 Developed an embedded cyclist-safety system involving low-level microcontroller

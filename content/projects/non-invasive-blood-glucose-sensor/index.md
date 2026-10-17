@@ -8,6 +8,7 @@ tags:
   - Signal Processing
   - Biomedical Sensing
 featured: false
+cover_kind: illustrative
 ---
 
 Developed a non-invasive blood-glucose sensing concept using near-infrared and

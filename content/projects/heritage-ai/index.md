@@ -10,6 +10,7 @@ tags:
   - Image Restoration
   - Homepage Featured
 featured: true
+cover_kind: illustrative
 ---
 
 ## Research problem
@@ -22,4 +23,4 @@ Under the NVIDIA Academic Grant Program, this ongoing work develops a unified re
 
 ## Current status
 
-Research is in progress. No consolidated public repository or approved project figure is currently available, so the project is presented without placeholder media.
+Research is in progress. No consolidated public repository or approved experimental result figure is currently available. The listing therefore uses a clearly illustrative project cover rather than presenting generated media as a research result.

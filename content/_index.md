@@ -50,64 +50,20 @@ sections:
       spacing:
         padding: ['3rem', '0', '2rem', '0']
   - block: collection
-    id: featured-projects
-    content:
-      title: Featured Research Projects
-      text: Selected work in generative modelling, computational imaging, and intelligent sensing.
-      filters:
-        folders:
-          - projects
-        tags:
-          - Homepage Featured
-      count: 0
-      sort_by: Weight
-      sort_ascending: true
-      archive:
-        enable: true
-        link: /projects/
-        text: View All Projects
-    design:
-      view: project-card
-      columns: 2
-      fill_image: false
-      show_date: false
-      show_read_time: false
-      show_read_more: false
-      spacing:
-        padding: ['3rem', '0', '3rem', '0']
-  - block: collection
-    id: manuscripts
-    content:
-      title: Research Manuscripts Under Review
-      text: Ongoing research submitted to ICLR 2027; these manuscripts have not been accepted or published.
-      filters:
-        folders:
-          - publications
-        tags:
-          - Under Review
-      count: 0
-      sort_by: Weight
-      sort_ascending: true
-      archive:
-        enable: true
-        link: /publications/
-        text: View All Publications
-    design:
-      view: publication-list
-      columns: 1
-      spacing:
-        padding: ['3rem', '0', '3rem', '0']
-  - block: collection
     id: news
     content:
       title: Latest News
       text: Recent research, publications, awards, and professional updates.
-      count: 4
-      sort_by: Weight
-      sort_ascending: true
+      count: 3
+      sort_by: Date
+      sort_ascending: false
       filters:
         folders:
           - news
+      archive:
+        enable: true
+        link: /news/
+        text: View All News
     design:
       view: date-title-summary
       columns: 1
@@ -134,7 +90,7 @@ sections:
         link: /publications/
         text: View All Publications
     design:
-      view: publication-list
+      view: publication-compact
       columns: 1
       spacing:
         padding: ['2rem', '0', '3rem', '0']

@@ -5,6 +5,7 @@ weight: 40
 summary: "Deep-learning regression for estimating soil moisture content from reflectance multispectral imagery."
 tags: [Research, Multispectral Imaging, Deep Learning, Soil Moisture Estimation]
 featured: true
+cover_kind: illustrative
 links:
   - type: publication
     url: /publications/deep-learning-soil-moisture/

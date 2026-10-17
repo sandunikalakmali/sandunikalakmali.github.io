@@ -9,6 +9,7 @@ tags:
   - Signal Processing
   - Terrain Mapping
 featured: false
+cover_kind: illustrative
 links:
   - type: code
     url: https://github.com/sandunikalakmali/SurveyBuddy
