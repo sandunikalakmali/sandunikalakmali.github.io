@@ -5,6 +5,7 @@ weight: 10
 summary: "History-aware group activity recognition in long videos using vision-language models."
 tags: [Research, Computer Vision, Video Understanding, Vision-Language Models]
 featured: true
+cover_kind: illustrative
 ---
 
 ## Research problem

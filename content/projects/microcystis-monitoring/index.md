@@ -5,6 +5,7 @@ weight: 60
 summary: "Multispectral sensing and regression models for harmful algal-bloom monitoring."
 tags: [Research, Multispectral Imaging, Environmental Monitoring, Regression]
 featured: true
+cover_kind: illustrative
 ---
 
 ## Research problem
