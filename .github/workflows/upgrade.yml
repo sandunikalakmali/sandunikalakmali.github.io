@@ -73,6 +73,14 @@ jobs:
           echo "Running upgrade with flags: $FLAGS"
           pnpm dlx hugoblox@latest upgrade $FLAGS
 
+      - name: Reject newly added event backup content
+        shell: bash
+        run: |
+          if git diff --name-only --diff-filter=A HEAD -- content/events.backup/ | grep -q . || \
+             git ls-files --others --exclude-standard -- content/events.backup/ | grep -q .; then
+            echo "::error::The upgrade added content/events.backup/. Review the migration manually instead of publishing demo content."
+            exit 1
+          fi
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
