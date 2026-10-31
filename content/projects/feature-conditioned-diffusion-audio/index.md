@@ -2,24 +2,52 @@
 title: "Feature-Conditioned Diffusion for Audio Generation"
 date: 2025-01-01
 weight: 30
-summary: "Temporal feature conditioning for diffusion-based audio generation and more stable waveform structure."
+summary: "A DiffWave study comparing spectral and transformed feature representations for conditioning speech, environmental-sound and music generation."
 tags: [Research, Diffusion Models, Audio Signal Processing, Temporal Representation Learning, Homepage Featured]
 featured: true
+cover_kind: illustrative
+cover_alt: "Conceptual illustration of audio waveforms and time-frequency features conditioning a generative neural model."
 links:
   - type: code
     url: https://github.com/sandunikalakmali/conditional-audiogen
   - type: publication
-    url: /publications/feature-conditioned-diffusion-audio/
+    label: Paper
+    url: https://doi.org/10.1109/ICIIS69028.2026.11450741
 ---
 
-## Research problem
+## Overview
 
-Audio generation requires a diffusion model to represent temporal structure as well as local signal detail.
+This project studies how the representation used to condition a diffusion model changes generated audio quality across speech, environmental sounds and music.
 
-## Contribution and methodology
+## Research problem and motivation
 
-This work conditions a diffusion model on signal-processing-based temporal features and studies waveform stability, temporal coherence, and perceptual realism relative to DiffWave.
+DiffWave commonly uses Mel spectrogram conditioning, but different time-frequency and transformed representations preserve different aspects of temporal, harmonic and timbral structure. The study evaluates those choices systematically rather than assuming one representation transfers equally well across audio domains.
 
-## Result
+## Approach and methodology
 
-The peer-reviewed paper was published in the proceedings of ICIIS 2025. Code and experiment visualizations are available in the linked repository.
+Starting from DiffWave, the implementation compares Mel spectrograms, MFCCs, CQT, KLT, Mel+MFCC and Mel+CQT conditioning. Experiments use LJSpeech, ESC-50 and IRMAS. Evaluation includes Fréchet Audio Distance together with precision, recall, density and coverage.
+
+## My contribution
+
+Sandunika is a co-author and contributor to the public implementation. The paper and repository establish a collaborative research project; they do not provide a task-by-task individual contribution statement.
+
+## Key results
+
+Mel+CQT produced the lowest reported FAD across all three datasets: 5.45 for LJSpeech, 6.71 for ESC-50 and 4.60 for IRMAS, compared with Mel baselines of 6.19, 8.38 and 5.63. The broader metric plots show that individual representations can remain stronger on particular criteria, so the result is framed as an overall experimental balance rather than universal superiority.
+
+## Technologies and methods
+
+- DiffWave and denoising diffusion
+- Mel spectrogram, MFCC, CQT and KLT features
+- LJSpeech, ESC-50 and IRMAS datasets
+- Fréchet Audio Distance and PRDC metrics
+- PyTorch audio preprocessing and waveform generation
+
+## Code and publication
+
+- [Code](https://github.com/sandunikalakmali/conditional-audiogen)
+- [Paper — ICIIS](https://doi.org/10.1109/ICIIS69028.2026.11450741)
+
+*The cover is a conceptual illustration. The original research visualization is retained below.*
+
+![Original feature-conditioned audio research visualization](research-figure-original.png)
