@@ -13,6 +13,9 @@
       </a>
     {{ end }}
     <div class="min-w-0 flex-1">
+      {{ with $item.Params.news_category }}
+        <span class="mb-2 inline-flex rounded-full bg-primary-50 px-2.5 py-1 text-xs font-semibold text-primary-700 ring-1 ring-inset ring-primary-200 dark:bg-primary-950/40 dark:text-primary-300 dark:ring-primary-800">{{ . }}</span>
+      {{ end }}
       <time class="text-xs font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400" datetime="{{ time.Format "2006-01-02" $displayDate }}">{{ $dateLabel }}</time>
       <h2 class="mt-1 text-lg font-semibold leading-snug tracking-tight text-zinc-900 dark:text-zinc-100">
         <a href="{{ $item.RelPermalink }}" class="hover:text-primary-600 dark:hover:text-primary-400">{{ $item.Title }}</a>
