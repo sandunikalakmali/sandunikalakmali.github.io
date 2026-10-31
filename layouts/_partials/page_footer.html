@@ -1,0 +1,12 @@
+<div class="max-w-prose print:hidden">
+  {{ partial "tags" . }}
+  {{ partial "components/page_sharer" . }}
+  {{/* Project pages already identify Sandunika's role in context. Avoid repeating
+       the full profile biography beneath every project. */}}
+  {{ if ne .Section "projects" }}
+    {{ partial "page_author" . }}
+  {{ end }}
+  {{ partial "components/next-in-series" . }}
+  {{ partial "page_related" . }}
+  {{ partial "comments" . }}
+</div>

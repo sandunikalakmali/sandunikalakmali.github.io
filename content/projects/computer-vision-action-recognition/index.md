@@ -25,9 +25,9 @@ The work investigates history-aware temporal representations and vision-language
 
 The available project record confirms Sandunika's involvement in the ongoing algorithm-development work but does not provide a public contribution breakdown. The project is therefore described as collaborative research.
 
-## Current outcome
+## Current status
 
-The project remains in progress. No public repository, paper, or verified experimental figure is currently available.
+The project remains in algorithm development. Public-facing results will be added when a benchmark protocol and approved research material are available.
 
 ## Technologies and methods
 

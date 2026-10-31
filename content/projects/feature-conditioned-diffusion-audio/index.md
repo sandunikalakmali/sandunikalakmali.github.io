@@ -48,6 +48,12 @@ Mel+CQT produced the lowest reported FAD across all three datasets: 5.45 for LJS
 - [Code](https://github.com/sandunikalakmali/conditional-audiogen)
 - [Paper — ICIIS](https://doi.org/10.1109/ICIIS69028.2026.11450741)
 
-*The cover is a conceptual illustration. The original research visualization is retained below.*
+## Research figures
+
+The first figure is the original project visualization. The second summarizes the LJSpeech evaluation across the compared conditioning representations; individual axes should be read separately rather than as evidence that one representation dominates every criterion.
 
 ![Original feature-conditioned audio research visualization](research-figure-original.png)
+
+![Radar comparison of conditioning representations on LJSpeech](conditioning-comparison-ljspeech.png)
+
+*The cover is a conceptual illustration; both figures above come from the research implementation.*

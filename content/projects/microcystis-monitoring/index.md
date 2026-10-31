@@ -19,7 +19,7 @@ Harmful cyanobacterial blooms create a need for practical monitoring tools. Comp
 
 ## Approach and methodology
 
-The documented workflow uses a 12-band transmission geometry, dimensionality reduction and distribution-based multispectral descriptors. Separate regression models target cell concentration and ELISA-equivalent total microcystin within controlled culture-derived dilution series.
+The approved manuscript describes a 12-band transmission-mode system. Its controlled calibration includes 11 concentration levels with 88 multispectral replicates and evaluates interpolation on six held-out intermediate levels with 48 replicates. Dimensionality reduction and distribution-based multispectral descriptors feed separate regression models for cell concentration and ELISA-equivalent total microcystin.
 
 ## My contribution
 
@@ -27,7 +27,7 @@ The available project and manuscript-conversion material confirm Sandunika's inv
 
 ## Current outcomes and limitations
 
-The current study supports a controlled calibration proof of concept. The optical system has no microcystin-selective recognition chemistry, and cell concentration and ELISA-equivalent microcystin co-vary in the dilution design. The toxin-related model must therefore not be interpreted as direct molecular detection or validation on natural blooms.
+The study supports a controlled calibration proof of concept. The optical system has no microcystin-selective recognition chemistry, and cell concentration and ELISA-equivalent microcystin co-vary in the dilution design. The toxin-related model is therefore an empirical calibration against ELISA-equivalent reference values—not direct molecular detection—and the results do not establish performance on natural blooms or complex water matrices.
 
 ## Technologies and methods
 
@@ -36,7 +36,5 @@ The current study supports a controlled calibration proof of concept. The optica
 - Dimensionality reduction
 - Distribution-based spectral descriptors
 - Regression modelling and held-out interpolation
-
-No public repository, peer-reviewed publication or approved reusable research figure is currently available.
 
 *The cover is a conceptual illustration and does not depict an actual cell concentration, toxin measurement or microscopy result.*
