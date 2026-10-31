@@ -21,4 +21,4 @@ The project uses reflectance multispectral images and learned regression models 
 
 ## Result
 
-The work was published at ICATC 2024. No verified public project repository or reusable figure was found, so this page remains text-only.
+The work was published at ICATC 2024. No verified public project repository or reusable figure was found. The listing therefore uses a clearly illustrative project cover rather than presenting generated media as a research result.

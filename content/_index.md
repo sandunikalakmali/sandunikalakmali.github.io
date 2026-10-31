@@ -50,6 +50,29 @@ sections:
       spacing:
         padding: ['3rem', '0', '2rem', '0']
   - block: collection
+    id: activities
+    content:
+      title: Workshops, Exhibitions & Outreach
+      text: Selected activities in knowledge sharing, research engagement, and public outreach.
+      count: 4
+      sort_by: Date
+      sort_ascending: false
+      filters:
+        folders:
+          - activities
+      archive:
+        enable: true
+        link: /activities/
+        text: View All Activities
+    design:
+      view: activity-card
+      columns: 2
+      show_date: true
+      show_read_time: false
+      show_read_more: false
+      spacing:
+        padding: ['2rem', '0', '3rem', '0']
+  - block: collection
     id: news
     content:
       title: Latest News
