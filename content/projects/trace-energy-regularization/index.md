@@ -2,7 +2,7 @@
 title: "Trace Energy Regularization for Diffusion Models"
 date: 2025-01-01
 weight: 20
-summary: "Predicted-noise energy regularization for studying fidelity in denoising diffusion probabilistic models."
+summary: "Trace-energy matching for studying conditional-mean energy loss and sample fidelity in denoising diffusion models."
 tags: [Research, Diffusion Models, Generative Modelling, Energy Regularization, Homepage Featured]
 featured: true
 cover_kind: illustrative
@@ -17,15 +17,15 @@ links:
 
 ## Overview
 
-This research investigates whether regularizing the energy of a diffusion model's predicted noise can improve fidelity during denoising diffusion probabilistic model training.
+This research investigates a failure mode of mean-squared-error noise prediction in denoising diffusion models and tests whether matching predicted-noise trace energy can improve sample fidelity.
 
 ## Research problem and motivation
 
-The manuscript examines predicted-noise energy behaviour in standard DDPM training. The central motivation is to reduce energy mismatch without replacing the underlying denoising objective.
+With multimodal conditional targets, an MSE predictor is driven toward a conditional mean. That averaging can reduce the predicted noise energy relative to the target and weaken recovery of fine or less probable modes. The manuscript studies this energy mismatch without replacing the standard denoising objective.
 
 ## Approach and methodology
 
-The method augments the DDPM loss with a trace-energy regularization term. The public companion repository provides a lightweight PyTorch testbed for related two-dimensional experiments on moon, Swiss-roll, banana and concentric-moon distributions. It supports multiple noise schedules, optional exponential moving average sampling and PRDC evaluation.
+The method augments the DDPM objective with a trace-energy term that compares the energy of predicted and target noise. The public companion repository provides a lightweight PyTorch testbed for related two-dimensional experiments on moon-scatter, Swiss-roll, central-banana and moon-circles distributions. It supports multiple noise schedules, optional exponential-moving-average sampling and precision, recall, density and coverage evaluation.
 
 The repository is supporting evidence for the research direction, not the complete implementation of every manuscript experiment.
 
@@ -35,7 +35,7 @@ Sandunika is the lead-listed author on the manuscript and maintains the related 
 
 ## Current outcome
 
-The manuscript is **under review for ICLR 2027**. It is not an accepted or published ICLR paper. The public repository enables controlled comparison between unregularized DDPM and energy-regularized variants on synthetic 2D distributions.
+The manuscript is **under review for ICLR 2027**. It is not an accepted or published ICLR paper. Results are interpreted metric by metric: trace-energy matching is not presented as improving every metric in every setting. The public repository enables controlled comparisons on synthetic 2D distributions, but it is related experimental code rather than the complete manuscript implementation.
 
 ## Technologies and methods
 
@@ -50,4 +50,8 @@ The manuscript is **under review for ICLR 2027**. It is not an accepted or publi
 - [Related 2D experiments](https://github.com/sandunikalakmali/2DEnDiff-Diffusion)
 - [Research manuscript — under review](https://sandunikalakmali.github.io/publications/trace-energy-regularization/)
 
-*The cover is a conceptual illustration, not an experimental distribution or result plot.*
+## Research figure
+
+![Synthetic two-dimensional distributions used by the public companion implementation](synthetic-distributions.png)
+
+*Figure: genuine input distributions from the related 2D experiment repository. The cover is a conceptual illustration, not an experimental result.*

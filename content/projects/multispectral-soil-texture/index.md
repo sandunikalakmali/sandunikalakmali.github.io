@@ -39,7 +39,7 @@ Sandunika is first author and shares equal contribution with Senith Jayakody on 
 
 ## Key results and limitations
 
-For the documented KNN model, grouped cross-validation reports approximately 92.86% direct specimen-level accuracy and 89.41% indirect accuracy. Clay, silt and sand regression R² values are approximately 0.9869, 0.9892 and 0.9860. These results describe controlled mixtures made from three source soils; geographically independent field validation is still required.
+The IEEE Access study reports clay, silt and sand regression performance reaching R² values of approximately 0.99 and direct USDA texture-classification accuracy above 99% in its controlled-mixture experiments. These publication results have a narrower scope than field validation: the samples were prepared from three source soils, and geographically independent soils and acquisition conditions remain future validation needs. Repository outputs from later reproducibility checks are not merged with the paper's final reported metrics.
 
 ## Technologies and methods
 
@@ -54,6 +54,8 @@ For the documented KNN model, grouped cross-validation reports approximately 92.
 - [Code](https://github.com/sandunikalakmali/soil-texture-msi)
 - [Paper — IEEE Access, 2026](https://doi.org/10.1109/ACCESS.2026.3721276)
 
-*The cover is a conceptual illustration. The research figure below is retained from the original project page.*
+## Research figure
 
 ![Original project figure for the multispectral soil-texture study](research-figure-original.jpg)
+
+*Figure: genuine project system/research visual retained from the original page. The cover is a conceptual illustration.*
