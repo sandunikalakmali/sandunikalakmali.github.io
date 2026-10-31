@@ -3,11 +3,12 @@
 {{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $displayDate := $item.Date }}
 {{ $dateLabel := $item.Params.date_label | default (time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $displayDate) }}
+{{ $isIllustrative := eq $item.Params.image_kind "illustrative" }}
 <article class="group flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900/70">
   {{ with $resource }}
     {{ $image := .Fill "960x540 Center" }}
     <a href="{{ $item.RelPermalink }}" class="block aspect-video overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-      <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]" alt="{{ $item.Title | plainify }} activity photograph">
+      <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]" alt="{{ $item.Title | plainify }} {{ if $isIllustrative }}editorial illustration{{ else }}activity photograph{{ end }}">
     </a>
   {{ end }}
   <div class="flex flex-1 flex-col p-5 sm:p-6">
@@ -28,8 +29,11 @@
         {{ end }}
       </div>
     {{ end }}
-    <div class="mt-auto pt-5">
+    <div class="mt-auto flex flex-wrap items-center gap-4 pt-5">
       <a href="{{ $item.RelPermalink }}" class="inline-flex items-center text-sm font-semibold text-primary-600 dark:text-primary-400">Read more<span aria-hidden="true" class="ml-1">→</span></a>
+      {{ with $item.Params.event_url }}
+        <a href="{{ . | safeURL }}" target="_blank" rel="noopener" class="inline-flex items-center text-sm font-semibold text-zinc-600 hover:text-primary-600 dark:text-zinc-400 dark:hover:text-primary-400">Event post<span aria-hidden="true" class="ml-1">↗</span></a>
+      {{ end }}
     </div>
   </div>
 </article>

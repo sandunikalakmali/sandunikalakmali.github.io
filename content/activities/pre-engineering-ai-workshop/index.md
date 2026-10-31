@@ -2,11 +2,16 @@
 title: "AI Workshop for Pre-Engineering Students"
 date: 2026-04-20
 summary: "Conducted or participated in an AI workshop designed for pre-engineering students."
-activity_type: "Workshop / Outreach"
-categories: [Workshop, Outreach]
+activity_type: "Workshop"
+categories: [Workshop]
 tags: [AI, workshop, pre-engineering, students]
+event_url: "https://lnkd.in/p/g-4e-uKg"
+image_kind: "photograph"
+image_attribution: "GauGe; attribution and rights notice retained in the supplied image"
 ---
 
-Contributed to an AI workshop designed for pre-engineering students, supporting accessible learning and early engagement with artificial intelligence.
+This workshop introduced pre-engineering students to artificial-intelligence concepts through an accessible and engaging learning experience. I contributed to the session by presenting ideas and interacting with the student audience.
 
-This page can be expanded with the workshop programme, exercises, and learning outcomes. Real event photographs may be added to this page bundle later as `featured.jpg`, `gallery-1.jpg`, `gallery-2.jpg`, and so on.
+The activity supported early engagement with AI and helped students connect emerging technologies with future study and engineering pathways.
+
+{{< button url="https://lnkd.in/p/g-4e-uKg" new_tab="true" style="secondary" >}}View Event Post{{< /button >}}

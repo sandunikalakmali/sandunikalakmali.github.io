@@ -5,8 +5,13 @@ summary: "Participated in the Diamond Jubilee AI Workshop, contributing to AI aw
 activity_type: "Workshop"
 categories: [Workshop]
 tags: [AI, workshop, outreach]
+event_url: "https://www.facebook.com/share/p/1F25rRVSnT/"
+image_kind: "photograph"
+image_attribution: "Workshop image supplied by Sandunika Ranasinghe"
 ---
 
-Participated in the Diamond Jubilee AI Workshop, contributing to AI awareness, accessible technical discussion, and knowledge sharing with participants.
+The Diamond Jubilee AI Workshop focused on building awareness of artificial intelligence through accessible technical discussion and knowledge sharing. I participated in the workshop and contributed to engagement with its audience.
 
-This page can be expanded with the workshop programme and learning outcomes. Real event photographs may be added to this page bundle later as `featured.jpg`, `gallery-1.jpg`, `gallery-2.jpg`, and so on.
+The activity supported wider understanding of AI and provided practical experience in communicating technical ideas in an educational setting.
+
+{{< button url="https://www.facebook.com/share/p/1F25rRVSnT/" new_tab="true" style="secondary" >}}View Event Post{{< /button >}}

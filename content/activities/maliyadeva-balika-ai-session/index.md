@@ -5,8 +5,12 @@ summary: "Conducted or participated in an AI session for students at Maliyadeva 
 activity_type: "School Outreach"
 categories: [Outreach]
 tags: [school outreach, AI, students]
+image_kind: "illustrative"
+image_attribution: "AI-generated editorial illustration"
 ---
 
-Contributed to an AI session for students at Maliyadeva Balika School, helping introduce artificial-intelligence ideas and encourage student discussion.
+This school-outreach activity introduced students at Maliyadeva Balika School to foundational ideas in artificial intelligence. I contributed to the session by supporting accessible explanations and student engagement.
 
-This page can be expanded with the session content and learning activities. Real event photographs may be added to this page bundle later as `featured.jpg`, `gallery-1.jpg`, `gallery-2.jpg`, and so on.
+The session encouraged curiosity about AI and created an approachable setting for students to ask questions and connect emerging technology with their education.
+
+*The featured image is an editorial illustration and is not a photograph of the event.*
