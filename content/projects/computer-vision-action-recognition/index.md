@@ -18,4 +18,4 @@ This ongoing research investigates history-aware representations and vision-lang
 
 ## Current status
 
-Research in progress. No public repository, benchmark result, or project figure is currently available, so this page intentionally uses a text-only presentation.
+Research in progress. No public repository, benchmark result, or project figure is currently available. The listing therefore uses a clearly illustrative project cover rather than presenting generated media as a research result.
