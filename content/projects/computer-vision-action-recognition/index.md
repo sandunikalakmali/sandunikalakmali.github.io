@@ -2,20 +2,38 @@
 title: "Computer Vision Action Recognition"
 date: 2026-01-01
 weight: 10
-summary: "History-aware group activity recognition in long videos using vision-language models."
+summary: "History-aware group activity recognition for long videos using temporal context and vision-language models."
 tags: [Research, Computer Vision, Video Understanding, Vision-Language Models]
 featured: true
 cover_kind: illustrative
+cover_alt: "Conceptual illustration of anonymous motion sequences connected to a temporal computer-vision model."
 ---
 
-## Research problem
+## Overview
 
-Understanding group activity in long videos requires models to retain relevant history rather than classify isolated frames or short clips.
+This ongoing research studies how computer-vision systems can recognize group activities in long videos by using evidence from earlier moments, rather than treating every frame or short clip independently.
 
-## Contribution and methodology
+## Research problem and motivation
 
-This ongoing research investigates history-aware representations and vision-language models for long-video group activity recognition. The work is currently in the algorithm-development stage.
+Group activities unfold over time: the meaning of a current interaction can depend on who moved, how participants responded, and what happened earlier. Retaining useful history is therefore central to robust long-video understanding.
 
-## Current status
+## Approach and methodology
 
-Research in progress. No public repository, benchmark result, or project figure is currently available. The listing therefore uses a clearly illustrative project cover rather than presenting generated media as a research result.
+The work investigates history-aware temporal representations and vision-language models for group activity recognition. Algorithm development is still in progress; no public benchmark protocol, dataset claim, or quantitative result is presented here.
+
+## My contribution
+
+The available project record confirms Sandunika's involvement in the ongoing algorithm-development work but does not provide a public contribution breakdown. The project is therefore described as collaborative research.
+
+## Current outcome
+
+The project remains in progress. No public repository, paper, or verified experimental figure is currently available.
+
+## Technologies and methods
+
+- Computer vision and video understanding
+- Temporal context modelling
+- Vision-language models
+- Group activity recognition
+
+*The cover is a conceptual illustration, not a frame from the research dataset or an experimental result.*
