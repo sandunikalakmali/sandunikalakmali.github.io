@@ -1,16 +1,18 @@
 ---
 title: "AI Session at Maliyadeva Balika School"
 date: 2025-09-03
-summary: "Conducted or participated in an AI session for students at Maliyadeva Balika School."
+summary: "Participated in an AI outreach session in Kurunegala through the Multidisciplinary AI Research Centre (MARC), University of Peradeniya, engaging students and promoting awareness of artificial intelligence and its applications."
 activity_type: "School Outreach"
 categories: [Outreach]
 tags: [school outreach, AI, students]
-image_kind: "illustrative"
-image_attribution: "AI-generated editorial illustration"
+image_kind: "photograph"
+image_fit: "contain"
+image_attribution: "Photographed by Janani Pushpakumara. © MARC 2025 Photography. All Rights Reserved."
+event_url: "https://www.facebook.com/share/p/1DgRaep75S/"
 ---
 
-This school-outreach activity introduced students at Maliyadeva Balika School to foundational ideas in artificial intelligence. I contributed to the session by supporting accessible explanations and student engagement.
+I participated in an AI outreach session in Kurunegala through the Multidisciplinary AI Research Centre (MARC), University of Peradeniya, engaging students and promoting awareness of artificial intelligence and its applications.
 
-The session encouraged curiosity about AI and created an approachable setting for students to ask questions and connect emerging technology with their education.
+The event formed part of the MARC AI Outreach Programme in Kurunegala.
 
-*The featured image is an editorial illustration and is not a photograph of the event.*
+*Photograph by Janani Pushpakumara. © MARC 2025 Photography. All Rights Reserved.*

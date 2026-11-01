@@ -4,11 +4,12 @@
 {{ $displayDate := $item.Date }}
 {{ $dateLabel := $item.Params.date_label | default (time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $displayDate) }}
 {{ $isIllustrative := eq $item.Params.image_kind "illustrative" }}
+{{ $preserveFullImage := eq $item.Params.image_fit "contain" }}
 <article class="group flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900/70">
   {{ with $resource }}
-    {{ $image := .Fill "960x540 Center" }}
+    {{ $image := cond $preserveFullImage (.Fit "960x540 Center") (.Fill "960x540 Center") }}
     <div class="block aspect-video overflow-hidden bg-zinc-100 dark:bg-zinc-800">
-      <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]" alt="{{ $item.Title | plainify }} {{ if $isIllustrative }}editorial illustration{{ else }}activity photograph{{ end }}">
+      <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async" class="h-full w-full {{ if $preserveFullImage }}object-contain{{ else }}object-cover{{ end }} transition duration-300 group-hover:scale-[1.02]" alt="{{ $item.Title | plainify }} {{ if $isIllustrative }}editorial illustration{{ else }}activity photograph{{ end }}">
     </div>
   {{ end }}
   <div class="flex flex-1 flex-col p-5 sm:p-6">
