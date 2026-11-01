@@ -1,6 +1,6 @@
 {{ $profile := partial "functions/get_author_profile" (.wcBlock.content.username | default "me") }}
 {{ $avatar := resources.Get "media/authors/me.jpg" }}
-<div class="mx-auto grid max-w-6xl items-start gap-10 px-6 py-10 md:grid-cols-[16rem_1fr] md:py-16">
+<div class="mx-auto grid max-w-6xl items-start gap-10 px-6 py-8 md:grid-cols-[16rem_1fr] md:py-10">
   <div class="text-center">
     {{ with $avatar }}{{ $image := .Fill "400x400 Center" }}<img src="{{ $image.RelPermalink }}" width="200" height="200" alt="Sandunika Ranasinghe" class="mx-auto h-48 w-48 rounded-full object-cover shadow-lg">{{ end }}
     <h1 class="mt-6 text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">Sandunika Ranasinghe</h1>
