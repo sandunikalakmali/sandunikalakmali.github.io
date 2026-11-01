@@ -1,0 +1,13 @@
+{{ $profile := partial "functions/get_author_profile" (.wcBlock.content.username | default "me") }}
+{{ $avatar := resources.Get "media/authors/me.jpg" }}
+<div class="mx-auto grid max-w-6xl items-start gap-10 px-6 py-10 md:grid-cols-[16rem_1fr] md:py-16">
+  <div class="text-center">
+    {{ with $avatar }}{{ $image := .Fill "400x400 Center" }}<img src="{{ $image.RelPermalink }}" width="200" height="200" alt="Sandunika Ranasinghe" class="mx-auto h-48 w-48 rounded-full object-cover shadow-lg">{{ end }}
+    <h1 class="mt-6 text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">{{ $profile.name.display }}</h1>
+    <div class="mt-5 flex justify-center gap-3">{{ range $profile.links }}<a href="{{ .url }}" aria-label="{{ .label }}" title="{{ .label }}" class="flex h-11 w-11 items-center justify-center rounded-full border border-zinc-200 text-zinc-600 transition hover:-translate-y-0.5 hover:text-primary-600 dark:border-zinc-700 dark:text-zinc-300 dark:hover:text-primary-400"{{ if strings.HasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='h-5 w-5'") }}</a>{{ end }}</div>
+  </div>
+  <div class="prose prose-lg max-w-none leading-relaxed dark:prose-invert">
+    {{ $profile.bio | .wcPage.RenderString }}
+    <a href="{{ .wcBlock.content.button.url }}" target="_blank" rel="noopener" class="not-prose mt-5 inline-flex items-center gap-2 rounded-lg border border-primary-300 px-3.5 py-2 text-sm font-semibold text-primary-700 no-underline transition hover:bg-primary-50 dark:border-primary-700 dark:text-primary-300 dark:hover:bg-primary-950/40">{{ partial "functions/get_icon" (dict "name" "document-arrow-down" "attributes" "class='h-4 w-4'") }}{{ .wcBlock.content.button.text }}</a>
+  </div>
+</div>

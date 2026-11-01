@@ -5,6 +5,11 @@ date_label: "6 August 2026"
 weight: 10
 summary: "Our multispectral soil composition and USDA texture-classification research is now published in IEEE Access."
 news_category: "Publications"
+news_month: "Aug 2026"
+homepage_text: "Soil texture research published in IEEE Access."
+homepage_links:
+  - label: Paper
+    url: https://doi.org/10.1109/ACCESS.2026.3721276
 authors:
   - me
 tags:

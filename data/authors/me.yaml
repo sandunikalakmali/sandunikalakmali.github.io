@@ -9,12 +9,10 @@ name:
   alternate: ""
   pronunciation: ""
 
-role: Research and Development Engineer
+role: ""
 
 bio: |
-  I am a Research and Development Engineer at Farbe Technologies and a
-  Volunteer Researcher at the Multidisciplinary AI Research Centre,
-  University of Peradeniya.
+  I am a Research and Development Engineer at Farbe Technologies and a Volunteer Researcher at the Multidisciplinary AI Research Centre, University of Peradeniya. I completed my B.Sc. Eng. (Hons.) in Electrical and Electronic Engineering at the Department of Electrical and Electronic Engineering, Faculty of Engineering, University of Peradeniya, Sri Lanka. My research supervisors are [Prof. Roshan Godaliyadda](https://eng.pdn.ac.lk/deee/index.php/people/RoshanG), [Prof. Vijitha Herath](https://eng.pdn.ac.lk/deee/people/VijithaH), and [Prof. Mervyn Parakrama Ekanayake](https://eng.pdn.ac.lk/deee/people/ParakramaE).
 
   My research focuses on generative modelling, computational imaging,
   signal and image processing, and machine learning for real-world sensing
@@ -22,9 +20,7 @@ bio: |
   neural representations, historical-image restoration, multispectral
   imaging, and theoretically grounded machine-learning methods.
 
-affiliations:
-  - name: Farbe Technologies
-    url: ""
+affiliations: []
 
 links:
   - icon: at-symbol

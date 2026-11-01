@@ -1,76 +1,29 @@
 ---
-title: 'Experience'
-date: 2023-10-24
+title: Experience
 type: landing
-
-design:
-  spacing: 'comfortable'
-
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
-  - block: resume-experience
-    content:
-      username: me
-    design:
-      # Hugo date format
-      date_format: '2006'
-      # Education or Experience section first?
-      is_education_first: false
   - block: markdown
     content:
-      title: Skills
+      title: Professional Experience
       text: |
-        ### Research domains
-
-        Computational imaging · Generative modelling · Diffusion models · Implicit neural representations · Multispectral imaging · Computer vision · Image and signal processing · Machine learning for sensing systems
-
-        ### Frameworks and libraries
-
-        PyTorch · TensorFlow · Keras · Scikit-learn · OpenCV · YOLOv8 · SciPy · ONNX · Seldon Core
-
-        ### Programming and research tools
-
-        Python · C · Assembly · Git · LaTeX · SQL · PostgreSQL · Academic research · Technical writing · Project documentation
-    design:
-      columns: '1'
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-    design:
-      date_format: '2006'
+        <div class="timeline-list">
+        <article><span class="timeline-date">Nov 2025 – Present</span><h2>Research and Development Engineer</h2><h3><a href="https://farbe.lk/" target="_blank" rel="noopener">Farbe Technologies</a></h3><p>Developing AI-driven signal- and image-processing solutions for industrial applications.</p></article>
+        <article><span class="timeline-date">Jun 2023 – Present</span><h2>Volunteer Researcher</h2><h3><a href="https://marc.pdn.ac.lk/" target="_blank" rel="noopener">Multidisciplinary AI Research Centre (MARC), University of Peradeniya</a></h3><p>Contributing to theoretical and applied machine-learning research, particularly diffusion-based generative AI and multispectral imaging for agricultural and environmental monitoring.</p></article>
+        <article><span class="timeline-date">Aug 2025 – Oct 2025</span><h2>Teaching Assistant</h2><h3><a href="https://eng.pdn.ac.lk/deee/" target="_blank" rel="noopener">Department of Electrical and Electronic Engineering, University of Peradeniya</a></h3><p>Supported student learning in the EE358 Power module and EE1010 Electricity module.</p></article>
+        <article><span class="timeline-date">Jul 2023 – Oct 2023</span><h2>Trainee Research and Development Engineer</h2><h3><a href="https://www.sltmobitel.lk/" target="_blank" rel="noopener">SLT Digital Lab, Sri Lanka Telecom</a></h3><p>Contributed to the RACOON AI deep-learning project, including object detection and tracking with YOLOv8, model deployment using Seldon Core, PostgreSQL database work and ONNX-based model interoperability.</p></article>
+        </div>
+    design: {columns: "1"}
   - block: markdown
     content:
-      title: Service & Leadership
+      title: Honours & Awards
       text: |
-        ### AI Workshop Speaker and Volunteer
-        **Multidisciplinary AI Research Centre, University of Peradeniya · 2025**
-
-        Shared knowledge on generative AI and multispectral imaging with school
-        students through educational workshops.
-
-        ### Executive Committee Member
-        **IET on Campus, University of Peradeniya · June 2022 – May 2023**
-
-        Helped organize technical events and workshops for undergraduates.
-
-        ### Reporting Team Member
-        **IEEE Robotics and Automation Society, University of Peradeniya · 2022**
-
-        Supported technical-event coordination, editorial content, and
-        documentation.
-
-        ### Team Member, OGV/H4TF Customer Experience
-        **AIESEC in Kandy · 2022**
-
-        Supported customer-experience tracking for AIESEC projects.
-
-        ### Executive Committee Member
-        **Astronomical Society, Mahamaya Girls' College, Kandy · 2018–2019**
-
-        Organized astronomy nights and educational workshops.
-    design:
-      columns: "1"
+        <div class="award-grid">
+        <article><strong>2025</strong><h3>Second Runner-Up, Manamperi Award</h3><p>Best Undergraduate Project in Sri Lanka category, for the final-year multispectral imaging project.</p></article>
+        <article><strong>2024</strong><h3>Silver Award, Sahasak Nimavum Inventions and Innovations Competition</h3><p>Engineering category, for the multispectral imaging project.</p></article>
+        <article><strong>2023</strong><h3>Second Runner-Up, ACES Hackathon</h3><p>Healthcare category, organized by the Association of Computer Engineering Students, University of Peradeniya.</p></article>
+        <article><strong>2023</strong><h3>Finalist, Predicta v1.0</h3><p>Organized by the IEEE Student Branch, University of Peradeniya.</p></article>
+        <article><strong>2023</strong><h3>Finalist, IEEE Electronic Design Competition</h3><p>Organized by IEEE Sri Lanka Section.</p></article>
+        <article><strong>2018</strong><h3>High Distinction, Australian National Chemistry Quiz</h3><p>Senior Division.</p></article>
+        </div>
+    design: {columns: "1"}
 ---

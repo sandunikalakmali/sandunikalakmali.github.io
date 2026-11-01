@@ -5,6 +5,8 @@ date_label: "November 2025"
 weight: 40
 summary: "Beginning a new role developing AI-driven signal- and image-processing solutions for industrial applications."
 news_category: "Career"
+news_month: "Nov 2025"
+homepage_text: "Joined Farbe Technologies as a Research and Development Engineer."
 authors:
   - me
 tags:
