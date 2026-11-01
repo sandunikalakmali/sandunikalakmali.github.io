@@ -3,7 +3,7 @@
 <div class="mx-auto grid max-w-6xl items-start gap-10 px-6 py-10 md:grid-cols-[16rem_1fr] md:py-16">
   <div class="text-center">
     {{ with $avatar }}{{ $image := .Fill "400x400 Center" }}<img src="{{ $image.RelPermalink }}" width="200" height="200" alt="Sandunika Ranasinghe" class="mx-auto h-48 w-48 rounded-full object-cover shadow-lg">{{ end }}
-    <h1 class="mt-6 text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">{{ $profile.name.display }}</h1>
+    <h1 class="mt-6 text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">Sandunika Ranasinghe</h1>
     <div class="mt-5 flex justify-center gap-3">{{ range $profile.links }}<a href="{{ .url }}" aria-label="{{ .label }}" title="{{ .label }}" class="flex h-11 w-11 items-center justify-center rounded-full border border-zinc-200 text-zinc-600 transition hover:-translate-y-0.5 hover:text-primary-600 dark:border-zinc-700 dark:text-zinc-300 dark:hover:text-primary-400"{{ if strings.HasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ partial "functions/get_icon" (dict "name" .icon "attributes" "class='h-5 w-5'") }}</a>{{ end }}</div>
   </div>
   <div class="prose prose-lg max-w-none leading-relaxed dark:prose-invert">
