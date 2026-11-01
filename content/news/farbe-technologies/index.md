@@ -14,7 +14,7 @@ tags:
   - Research and Development
 ---
 
-In November 2025, I joined **Farbe Technologies** as a Research and Development
+In November 2025, I joined **[Farbe Technologies](https://farbetechnologies.ai/)** as a Research and Development
 Engineer. The role focuses on applied research and engineering for AI-driven
 signal- and image-processing solutions in industrial settings.
 
