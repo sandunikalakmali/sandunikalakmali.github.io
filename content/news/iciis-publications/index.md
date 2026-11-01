@@ -6,6 +6,13 @@ date_label: "2026"
 weight: 30
 summary: "New IEEE conference papers cover feature-conditioned diffusion for audio generation and moisture-aware multispectral soil classification."
 news_category: "Publications"
+news_month: "2026"
+homepage_text: "Two papers published in the ICIIS 2025 proceedings."
+homepage_links:
+  - label: Paper 1
+    url: https://doi.org/10.1109/ICIIS69028.2026.11450741
+  - label: Paper 2
+    url: https://doi.org/10.1109/ICIIS69028.2026.11450634
 authors:
   - me
 tags:

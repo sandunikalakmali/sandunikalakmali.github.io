@@ -5,6 +5,8 @@ date_label: "2025"
 weight: 50
 summary: "Recognised in the Best Undergraduate Project in Sri Lanka competition for the final-year project on multispectral imaging."
 news_category: "Awards"
+news_month: "2025"
+homepage_text: "Second Runner-Up at the Manamperi Award."
 authors:
   - me
 tags:

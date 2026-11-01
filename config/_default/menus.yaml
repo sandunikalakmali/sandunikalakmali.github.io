@@ -7,23 +7,21 @@ main:
   - name: About
     url: /
     weight: 10
-
+  - name: Education
+    url: /education/
+    weight: 20
   - name: Publications
     url: /publications/
-    weight: 40
-
-  - name: Activities
-    url: /activities/
-    weight: 20
-
-  - name: News
-    url: /news/
     weight: 30
-
+  - name: Projects
+    url: /projects/
+    weight: 40
   - name: Experience
     url: /experience/
     weight: 50
-
-  - name: Projects
-    url: /projects/
+  - name: Activities
+    url: /activities/
     weight: 60
+  - name: Gallery
+    url: /gallery/
+    weight: 70

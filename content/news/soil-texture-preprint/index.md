@@ -4,6 +4,11 @@ date: 2026-02-26
 weight: 20
 summary: "Our work on reflectance multispectral imaging for soil composition estimation and USDA texture classification is now available on arXiv."
 news_category: "Research"
+news_month: "Feb 2026"
+homepage_text: "Soil texture research preprint released on arXiv."
+homepage_links:
+  - label: Preprint
+    url: https://arxiv.org/abs/2602.22829
 authors:
   - me
 tags:

@@ -1,0 +1,12 @@
+{{ $block := .wcBlock }}
+{{ $pages := (where site.RegularPages "Section" "news").ByDate.Reverse }}
+<div class="mx-auto max-w-4xl px-6 phd-news-list">
+  <h2 class="text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">{{ $block.content.title | default "News" }}</h2>
+  {{ range ($pages.GroupByDate "2006") }}
+    <div class="mt-8 grid gap-4 sm:grid-cols-[5rem_1fr]"><h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">{{ .Key }}</h3>
+      <ul class="space-y-4 border-l border-zinc-200 pl-5 dark:border-zinc-700">{{ range .Pages }}
+        <li class="text-[0.98rem] leading-7 text-zinc-700 dark:text-zinc-300"><span class="font-semibold text-zinc-900 dark:text-zinc-100">{{ .Params.news_month | default .Params.date_label | default (time.Format "Jan 2006" .Date) }}</span> — {{ .Params.homepage_text | default .Summary }}{{ range .Params.homepage_links }} <a class="ml-2 whitespace-nowrap font-semibold text-primary-600 hover:underline dark:text-primary-400" href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>{{ end }}</li>
+      {{ end }}</ul>
+    </div>
+  {{ end }}
+</div>
