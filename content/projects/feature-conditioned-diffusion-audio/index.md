@@ -1,7 +1,7 @@
 ---
 title: "Feature-Conditioned Diffusion for Audio Generation"
 date: 2025-01-01
-weight: 30
+weight: 40
 summary: "A DiffWave study comparing spectral and transformed feature representations for conditioning speech, environmental-sound and music generation."
 status: completed
 tags: [Research, Diffusion Models, Audio Signal Processing, Temporal Representation Learning, Homepage Featured]

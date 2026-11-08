@@ -1,7 +1,7 @@
 ---
 title: "HeritageAI — Image Restoration"
 date: 2025-01-01
-weight: 15
+weight: 10
 summary: "A broader heritage-image restoration initiative including Colour-INR, an implicit-neural-representation method for controllable image colorization."
 status: ongoing
 tags:

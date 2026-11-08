@@ -9,6 +9,8 @@ sections:
     content:
       title: Research Projects
       text: Research in computational imaging, generative modelling, multimodal video understanding, and intelligent sensing.
+      sort_by: Weight
+      sort_ascending: true
       filters:
         folders:
           - projects
