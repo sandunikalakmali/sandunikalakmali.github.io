@@ -8,7 +8,6 @@ sections:
   - block: collection
     content:
       title: Research Manuscripts Under Review
-      text: Submitted to ICLR 2027. These manuscripts have not been accepted or published.
       count: 0
       sort_by: Weight
       sort_ascending: true

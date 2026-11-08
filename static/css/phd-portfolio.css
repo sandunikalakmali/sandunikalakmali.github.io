@@ -11,8 +11,8 @@
 .max-w-prose:has(.compact-timeline),
 .max-w-prose:has(.activity-leadership-timeline) { width: 100%; max-width: 70rem; }
 
-.institution-card { display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: 1.25rem; max-width: 56rem; margin: 1.25rem auto; padding: 1.5rem; border: 1px solid #e4e4e7; border-radius: 1rem; }
-.dark .institution-card { border-color: #3f3f46; background: rgb(24 24 27 / .45); }
+.institution-card { display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: 1.25rem; max-width: 56rem; margin: 1.25rem auto; padding: 1.5rem; border: 1px solid #e4e4e7; border-radius: 1rem; background: #fff; box-shadow: 0 1px 3px rgb(15 23 42 / .08); }
+.dark .institution-card { border-color: #3f3f46; background: rgb(24 24 27 / .7); box-shadow: 0 1px 3px rgb(0 0 0 / .25); }
 .institution-mark { width: 4.75rem; height: 4.75rem; display: grid; place-items: center; }
 .institution-mark img { display: block; width: 100%; height: 100%; margin: 0 !important; object-fit: contain; }
 .qualification-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(14rem, .85fr); gap: 1.75rem; }
@@ -58,7 +58,7 @@
 .activity-timeline-card {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr) 9rem;
+  grid-template-columns: minmax(15rem, 21rem) minmax(0, 1fr) max-content;
   width: 100%;
   max-width: 70rem;
   min-height: 13.5rem;
@@ -100,6 +100,25 @@
   line-height: 1.35 !important;
 }
 .activity-timeline-content p { margin: 0 !important; }
+.activity-card-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.activity-affiliation-logo {
+  display: grid;
+  width: 5.2rem;
+  height: 2.45rem;
+  flex: 0 0 auto;
+  place-items: center;
+  padding: .3rem .45rem;
+  border: 1px solid #e4e4e7;
+  border-radius: .6rem;
+  background: #fff;
+}
+.dark .activity-affiliation-logo { border-color: #52525b; background: #fff; }
+.activity-affiliation-logo img { display: block; width: 100%; height: 100%; margin: 0 !important; object-fit: contain; }
 .activity-timeline-marker,
 .activity-leadership-marker {
   position: relative;
@@ -107,42 +126,22 @@
   min-height: 100%;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 1.35rem 2.3rem 1.35rem .5rem;
+  padding: 1.35rem 1.4rem 1.35rem .35rem;
 }
 .activity-timeline-marker::before,
 .activity-leadership-marker::before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  top: -1.75rem;
-  right: 1.25rem;
-  bottom: -1.75rem;
-  width: 2px;
-  background: #c7d2fe;
+  content: none;
 }
-.dark .activity-timeline-marker::before,
-.dark .activity-leadership-marker::before { background: #3730a3; }
 .activity-timeline-marker::after,
 .activity-leadership-marker::after {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  top: 1.65rem;
-  right: .91rem;
-  width: .72rem;
-  height: .72rem;
-  border: 3px solid #eef2ff;
-  border-radius: 50%;
-  background: #4f46e5;
-  box-shadow: 0 0 0 1px #6366f1;
+  content: none;
 }
-.dark .activity-timeline-marker::after,
-.dark .activity-leadership-marker::after { border-color: #1e1b4b; background: #818cf8; }
 .activity-date-pill {
   position: relative;
   z-index: 1;
   display: inline-flex;
-  max-width: 6.25rem;
+  width: max-content;
+  max-width: none;
   align-items: center;
   justify-content: center;
   padding: .38rem .62rem;
@@ -154,6 +153,7 @@
   font-weight: 750;
   line-height: 1.25;
   text-align: center;
+  white-space: nowrap;
 }
 .dark .activity-date-pill { border-color: #4338ca; background: #1e1b4b; color: #c7d2fe; }
 
@@ -166,7 +166,7 @@
 .activity-leadership-entry {
   position: relative;
   display: grid;
-  grid-template-columns: 3.75rem minmax(0, 1fr) 9rem;
+  grid-template-columns: 3.75rem minmax(0, 1fr) max-content;
   min-height: 8.5rem;
   padding: 1.1rem 0 1.1rem 1.15rem;
   border: 1px solid #e4e4e7;
@@ -212,7 +212,7 @@
     display: grid;
     grid-template-columns: 1fr;
     min-height: 0;
-    padding-left: 1rem;
+    padding-top: 3.8rem;
     border-radius: .9rem;
   }
   .activity-timeline-media {
@@ -224,45 +224,34 @@
   .activity-timeline-content { padding: 1.1rem 1.15rem 1.25rem; }
   .activity-timeline-marker {
     position: absolute;
-    inset: 0 auto -1.25rem -1px;
-    width: 1rem;
+    inset: .85rem 1rem auto auto;
+    width: auto;
     min-height: auto;
     padding: 0;
   }
-  .activity-timeline-marker::before,
-  .activity-leadership-marker::before { top: -1.25rem; right: auto; bottom: -1.25rem; left: .4rem; }
-  .activity-timeline-marker::after,
-  .activity-leadership-marker::after { top: 1.2rem; right: auto; left: .06rem; }
   .activity-timeline-marker .activity-date-pill {
-    position: absolute;
-    top: .75rem;
-    left: 1.25rem;
-    min-width: 4.5rem;
-    max-width: 6.6rem;
+    position: static;
   }
-  .activity-timeline-media { margin-top: 3.15rem; }
+  .activity-card-footer { align-items: center; }
+  .activity-affiliation-logo { width: 4.7rem; height: 2.25rem; }
 
   .activity-leadership-entry {
     grid-template-columns: 3.15rem minmax(0, 1fr);
     min-height: 0;
-    padding: 4rem 1rem 1rem 1.35rem;
+    padding: 4rem 1rem 1rem;
   }
   .activity-leadership-logo { width: 2.85rem; height: 2.85rem; }
   .activity-leadership-content { padding: 0 0 0 .55rem; }
   .activity-leadership-entry-no-logo .activity-leadership-content { grid-column: 1 / 3; padding-left: 0; }
   .activity-leadership-marker {
     position: absolute;
-    inset: 0 auto -1rem -1px;
-    width: 1rem;
+    inset: .85rem 1rem auto auto;
+    width: auto;
     min-height: auto;
     padding: 0;
   }
   .activity-leadership-marker .activity-date-pill {
-    position: absolute;
-    top: .85rem;
-    left: 1.25rem;
-    min-width: 4.5rem;
-    max-width: 8rem;
+    position: static;
   }
 }
 
@@ -404,7 +393,7 @@
 .experience-card-content {
   position: relative;
   min-width: 0;
-  padding-right: 9.5rem;
+  padding-right: 11.5rem;
 }
 .experience-card h2 {
   margin: .05rem 0 .3rem !important;
@@ -432,7 +421,8 @@
   top: 0;
   right: 0;
   display: inline-flex;
-  max-width: 9rem;
+  width: max-content;
+  max-width: none;
   justify-content: center;
   border: 1px solid #c7d2fe;
   border-radius: 999px;
@@ -443,6 +433,7 @@
   font-weight: 700;
   line-height: 1.3;
   text-align: center;
+  white-space: nowrap;
 }
 .dark .experience-date {
   border-color: #4338ca;
