@@ -3,6 +3,7 @@ title: "PixelFold"
 date: 2024-01-01
 weight: 70
 summary: "An educational image and hybrid video codec using transform coding, entropy coding, motion estimation and reconstruction."
+status: completed
 tags: [Research, Image Compression, Video Compression, Signal Processing]
 featured: false
 cover_kind: illustrative

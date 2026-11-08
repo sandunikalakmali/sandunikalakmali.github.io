@@ -3,6 +3,7 @@ title: "Multispectral Soil Texture Classification and Composition Prediction"
 date: 2026-01-01
 weight: 50
 summary: "Reflectance multispectral imaging for clay, silt and sand estimation, direct USDA texture classification, and composition-based indirect classification."
+status: completed
 tags: [Research, Multispectral Imaging, Machine Learning, Soil Texture Classification, Homepage Featured]
 featured: true
 cover_kind: illustrative

@@ -2,6 +2,7 @@
 title: "Survey Buddy"
 date: 2024-01-01
 summary: "A portable terrain-mapping system supporting GPS/sensor data capture, real-time transmission and offline visualization."
+status: completed
 tags:
   - Engineering
   - Sensor Fusion

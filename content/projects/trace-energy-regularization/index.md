@@ -3,6 +3,7 @@ title: "Trace Energy Regularization for Diffusion Models"
 date: 2025-01-01
 weight: 20
 summary: "Trace-energy matching for studying conditional-mean energy loss and sample fidelity in denoising diffusion models."
+status: ongoing
 tags: [Research, Diffusion Models, Generative Modelling, Energy Regularization, Homepage Featured]
 featured: true
 cover_kind: illustrative

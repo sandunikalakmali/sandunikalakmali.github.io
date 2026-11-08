@@ -25,9 +25,6 @@ tags:
   - Implicit Neural Representations
   - Image Colorization
   - Image Restoration
-links:
-  - type: project
-    url: /projects/heritage-ai/
 ---
 
 **Status:** Under Review — ICLR 2027

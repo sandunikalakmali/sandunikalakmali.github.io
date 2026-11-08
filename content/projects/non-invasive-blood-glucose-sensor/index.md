@@ -2,6 +2,7 @@
 title: "Non-Invasive Blood Glucose Sensor"
 date: 2023-01-01
 summary: "An undergraduate optical instrumentation prototype studying infrared response to prepared glucose solutions."
+status: completed
 tags:
   - Engineering
   - Spectroscopy

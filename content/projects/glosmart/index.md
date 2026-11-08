@@ -2,6 +2,7 @@
 title: "GloSmart"
 date: 2024-01-01
 summary: "A collaborative wearable cyclist-safety prototype for gesture-controlled signalling, wireless lighting and location-aware alerts."
+status: completed
 tags:
   - Engineering
   - Embedded Systems
