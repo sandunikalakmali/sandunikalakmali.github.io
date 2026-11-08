@@ -6,10 +6,7 @@ sections:
   - block: collection
     content:
       title: Research Outreach & Engagement
-      text: |
-        Through workshops, exhibitions, and educational outreach, I have contributed to sharing ideas in artificial intelligence, machine learning, and engineering with students and wider audiences.
-
-        <span class="activity-section-affiliation"><img src="/media/institutions/marc-logo.png" alt="Multidisciplinary AI Research Centre affiliation" loading="lazy" decoding="async"></span>
+      text: Through workshops, exhibitions, and educational outreach, I have contributed to sharing ideas in artificial intelligence, machine learning, and engineering with students and wider audiences.
       filters:
         folders:
           - activities
