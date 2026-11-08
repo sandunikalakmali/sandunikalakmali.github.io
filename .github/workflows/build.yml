@@ -51,18 +51,13 @@ jobs:
     - name: Get Hugo Version
       id: hugo-version
       run: |
-        # Install pinned yq version for robust YAML parsing
-        YQ_VERSION="v4.44.1"
-        if ! wget -q --tries=3 --waitretry=1 -O /tmp/yq \
-          "https://github.com/mikefarah/yq/releases/download/${YQ_VERSION}/yq_linux_amd64"; then
-          echo "::error::Failed to download yq"
-          exit 1
-        fi
-        sudo mv /tmp/yq /usr/local/bin/yq
-        sudo chmod +x /usr/local/bin/yq
-        
-        # Read hugo_version from hugoblox.yaml
-        VERSION=$(yq '.build.hugo_version // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
+        # Read hugo_version with Ruby's standard-library YAML parser, which is
+        # available on the GitHub-hosted Ubuntu runner. This avoids downloading
+        # an external binary before the build can start.
+        VERSION=$(ruby -ryaml -e '
+          config = YAML.safe_load_file("hugoblox.yaml", permitted_classes: [], aliases: false) || {}
+          puts(config.dig("build", "hugo_version").to_s)
+        ' 2>/dev/null || true)
         
         # Fallback to a known stable version if not specified
         DEFAULT_VERSION="0.161.1"
