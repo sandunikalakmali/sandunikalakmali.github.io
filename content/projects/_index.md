@@ -8,7 +8,7 @@ sections:
   - block: collection
     content:
       title: Research Projects
-      text: Research in computational imaging, generative modelling, multimodal video understanding, and intelligent sensing.
+      text: Research in computer vision, generative modelling, inverse problems, image processing, signal processing, and intelligent systems.
       sort_by: Weight
       sort_ascending: true
       filters:
