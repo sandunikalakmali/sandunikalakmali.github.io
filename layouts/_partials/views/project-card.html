@@ -6,6 +6,12 @@
 
 <article class="group flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900">
   <div class="flex flex-1 flex-col p-6 sm:p-7">
+    {{ with $item.Params.status }}
+      {{ $status := lower . }}
+      <div class="mb-3">
+        <span class="project-status project-status-{{ $status }}">{{ $status | title }}</span>
+      </div>
+    {{ end }}
     {{ with $item.Params.tags }}
       <div class="mb-3 flex flex-wrap gap-2">
         {{ range first 3 . }}

@@ -3,6 +3,7 @@ title: "Computer Vision Action Recognition"
 date: 2026-01-01
 weight: 10
 summary: "History-aware group activity recognition for long videos using temporal context and vision-language models."
+status: ongoing
 tags: [Research, Computer Vision, Video Understanding, Vision-Language Models]
 featured: true
 cover_kind: illustrative

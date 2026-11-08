@@ -7,6 +7,24 @@ type: landing
 sections:
   - block: collection
     content:
+      title: Research Manuscripts Under Review
+      text: Submitted to ICLR 2027. These manuscripts have not been accepted or published.
+      count: 0
+      sort_by: Weight
+      sort_ascending: true
+      filters:
+        folders:
+          - publications
+        tags:
+          - Under Review
+    design:
+      view: publication-list
+      columns: 1
+      spacing:
+        padding: ['3rem', '0', '2rem', '0']
+
+  - block: collection
+    content:
       title: Peer-Reviewed Publications
       text: Four published journal and conference papers, listed in reverse chronological order.
       count: 0
@@ -19,24 +37,6 @@ sections:
           - publications
         tags:
           - Peer-Reviewed
-    design:
-      view: publication-list
-      columns: 1
-      spacing:
-        padding: ['3rem', '0', '2rem', '0']
-
-  - block: collection
-    content:
-      title: Research Manuscripts Under Review
-      text: Submitted to ICLR 2027. These manuscripts have not been accepted or published.
-      count: 0
-      sort_by: Weight
-      sort_ascending: true
-      filters:
-        folders:
-          - publications
-        tags:
-          - Under Review
     design:
       view: publication-list
       columns: 1

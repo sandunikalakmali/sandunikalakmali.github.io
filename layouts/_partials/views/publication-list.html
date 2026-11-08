@@ -30,8 +30,10 @@
       <p class="text-[0.95rem] leading-7 text-zinc-600 dark:text-zinc-400">{{ . | markdownify }}</p>
     {{ end }}
 
-    <div class="flex flex-wrap gap-x-4 gap-y-2 border-t border-zinc-100 pt-4 text-sm dark:border-zinc-800">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    </div>
+    {{ if not $is_under_review }}
+      <div class="flex flex-wrap gap-x-4 gap-y-2 border-t border-zinc-100 pt-4 text-sm dark:border-zinc-800">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+    {{ end }}
   </div>
 </article>

@@ -3,6 +3,7 @@ title: "Microcystis Cell Count and Toxicity Estimation"
 date: 2025-01-01
 weight: 60
 summary: "Transmission-mode multispectral sensing and regression for controlled calibration of Microcystis cell concentration and toxicity-related reference measurements."
+status: ongoing
 tags: [Research, Multispectral Imaging, Environmental Monitoring, Regression]
 featured: true
 cover_kind: illustrative

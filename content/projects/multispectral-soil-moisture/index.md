@@ -3,6 +3,7 @@ title: "Multispectral Soil Moisture Estimation"
 date: 2024-01-01
 weight: 40
 summary: "Reflectance multispectral imaging for soil-moisture regression, with related work on classification under moisture-induced spectral change."
+status: completed
 tags: [Research, Multispectral Imaging, Deep Learning, Soil Moisture Estimation]
 featured: true
 cover_kind: illustrative

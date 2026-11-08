@@ -25,11 +25,6 @@ tags:
   - Denoising Diffusion Probabilistic Models
   - Generative AI
   - Energy Regularization
-links:
-  - type: code
-    url: https://github.com/sandunikalakmali/2DEnDiff-Diffusion
-  - type: project
-    url: /projects/trace-energy-regularization/
 ---
 
 **Status:** Under Review — ICLR 2027
