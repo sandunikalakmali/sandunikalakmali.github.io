@@ -91,25 +91,10 @@ jobs:
         fi
 
     - name: Setup Hugo
-      env:
-        GH_TOKEN: ${{ github.token }}
-      run: |
-        ASSET_NAME="hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
-        ASSET_ID=$(gh api \
-          "/repos/gohugoio/hugo/releases/tags/v${HUGO_VERSION}" \
-          --jq ".assets[] | select(.name == \"${ASSET_NAME}\") | .id")
-
-        if [[ ! "$ASSET_ID" =~ ^[0-9]+$ ]]; then
-          echo "::error::Unable to locate ${ASSET_NAME} in the official Hugo release"
-          exit 1
-        fi
-
-        gh api \
-          -H "Accept: application/octet-stream" \
-          "/repos/gohugoio/hugo/releases/assets/${ASSET_ID}" \
-          > "${RUNNER_TEMP}/hugo.deb"
-        sudo dpkg -i "${RUNNER_TEMP}/hugo.deb"
-        hugo version
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: ${{ env.HUGO_VERSION }}
+        extended: true
 
     # Cache dependencies (Go modules, node_modules) - stable, rarely changes
     - uses: actions/cache@v5
