@@ -2,18 +2,13 @@
 title: "Trace Energy Regularization for Diffusion Models"
 date: 2025-01-01
 weight: 20
-summary: "Trace-energy matching for studying conditional-mean energy loss and sample fidelity in denoising diffusion models."
+summary: "EnDiff adds a trace-energy penalty to diffusion-model training to improve generated-image fidelity without changing the model architecture or sampling procedure."
+methods_short: "DDPM · Latent diffusion · Noise prediction · Trace-energy regularization · Fidelity evaluation"
 status: ongoing
 tags: [Research, Diffusion Models, Generative Modelling, Energy Regularization, Homepage Featured]
 featured: true
 cover_kind: illustrative
 cover_alt: "Conceptual illustration of noisy point distributions following denoising trajectories through a diffusion process."
-links:
-  - type: code
-    url: https://github.com/sandunikalakmali/2DEnDiff-Diffusion
-  - type: manuscript
-    label: Manuscript
-    url: https://sandunikalakmali.github.io/publications/trace-energy-regularization/
 ---
 
 ## Overview
@@ -36,7 +31,7 @@ Sandunika is the lead-listed author on the manuscript and maintains the related 
 
 ## Current outcome
 
-The manuscript is **under review for ICLR 2027**. It is not an accepted or published ICLR paper. Results are interpreted metric by metric: trace-energy matching is not presented as improving every metric in every setting. The public repository enables controlled comparisons on synthetic 2D distributions, but it is related experimental code rather than the complete manuscript implementation.
+**EnDiff: Trace Energy Regularization for Fidelity Oriented Diffusion Image Synthesis** is **submitted to CVPR 2027**. It is not an accepted or published CVPR paper. Results are interpreted metric by metric: trace-energy matching is not presented as improving every metric in every setting. The related experimental work supports controlled comparisons, but it is not described here as a complete public implementation of every manuscript experiment.
 
 ## Technologies and methods
 
@@ -45,11 +40,6 @@ The manuscript is **under review for ICLR 2027**. It is not an accepted or publi
 - PyTorch and time-conditioned MLPs
 - Cosine, linear and quadratic schedules
 - Precision, recall, density and coverage evaluation
-
-## Code and manuscript
-
-- [Related 2D experiments](https://github.com/sandunikalakmali/2DEnDiff-Diffusion)
-- [Research manuscript — under review](https://sandunikalakmali.github.io/publications/trace-energy-regularization/)
 
 ## Research figure
 

@@ -1,7 +1,8 @@
 ---
 title: "Non-Invasive Blood Glucose Sensor"
 date: 2023-01-01
-summary: "An undergraduate optical instrumentation prototype studying infrared response to prepared glucose solutions."
+summary: "Investigated infrared optical sensing of prepared glucose solutions using a low-cost instrumentation prototype, exploring the feasibility and limitations of non-invasive measurement."
+methods_short: "Infrared photodetection · Bridge circuit · Signal filtering · Arduino Nano"
 status: completed
 tags:
   - Engineering

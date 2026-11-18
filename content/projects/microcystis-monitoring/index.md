@@ -2,12 +2,19 @@
 title: "Microcystis Cell Count and Toxicity Estimation"
 date: 2025-01-01
 weight: 60
-summary: "Transmission-mode multispectral sensing and regression for controlled calibration of Microcystis cell concentration and toxicity-related reference measurements."
+summary: "Estimating Microcystis cell concentration and ELISA-equivalent microcystin concentration from transmitted multispectral images of controlled water samples."
+methods_short: "12-band transmission MSI · PCA · Wasserstein distance descriptors · Regression"
 status: completed
 tags: [Research, Multispectral Imaging, Environmental Monitoring, Regression]
 featured: true
 cover_kind: illustrative
 cover_alt: "Conceptual illustration of a water sample with cyanobacterial forms under multispectral illumination."
+links:
+  - type: publication
+    label: Paper
+    url: https://arxiv.org/abs/2611.16859
+  - type: code
+    url: https://github.com/SenithJayakody/microcystis-microcystin-msi.git
 ---
 
 ## Overview
@@ -37,5 +44,10 @@ The study supports a controlled calibration proof of concept. The optical system
 - Dimensionality reduction
 - Distribution-based spectral descriptors
 - Regression modelling and held-out interpolation
+
+## Paper and Code
+
+- [Preprint — arXiv](https://arxiv.org/abs/2611.16859)
+- [Collaborator-hosted code repository](https://github.com/SenithJayakody/microcystis-microcystin-msi.git)
 
 *The cover is a conceptual illustration and does not depict an actual cell concentration, toxin measurement or microscopy result.*

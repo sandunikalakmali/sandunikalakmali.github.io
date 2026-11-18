@@ -1,7 +1,8 @@
 ---
 title: "GloSmart"
 date: 2024-01-01
-summary: "A collaborative wearable cyclist-safety prototype for gesture-controlled signalling, wireless lighting and location-aware alerts."
+summary: "Developed a wearable cyclist-safety prototype that recognizes hand gestures and communicates turn signals to bicycle-mounted lights, with location-aware alert functionality."
+methods_short: "ATmega328P · Accelerometer · Assembly language · nRF24L01 · GPS/GSM"
 status: completed
 tags:
   - Engineering
