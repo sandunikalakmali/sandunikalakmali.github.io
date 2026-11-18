@@ -1,5 +1,5 @@
 ---
-title: "Colour-INR - Implicit Neural Representation for Image Colorization through Colour Guidance"
+title: "Chroma-INR: Guiding Implicit Neural Representation for Image Colourization and Beyond"
 authors:
   - B. Apakanda
   - me
@@ -13,8 +13,8 @@ date: "2026-01-01T00:00:00Z"
 weight: 20
 publication_types: ["manuscript"]
 publication:
-  name: "Submitted to the 15th International Conference on Learning Representations (ICLR 2027)"
-  short_name: "Under Review — ICLR 2027"
+  name: "Submitted to CVPR 2027"
+  short_name: "Submitted to CVPR 2027"
 peer_reviewed: false
 status: "Under Review"
 featured: false
@@ -27,4 +27,4 @@ tags:
   - Image Restoration
 ---
 
-**Status:** Under Review — ICLR 2027
+**Status:** Submitted to CVPR 2027

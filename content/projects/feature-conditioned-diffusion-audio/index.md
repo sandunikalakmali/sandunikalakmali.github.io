@@ -2,7 +2,8 @@
 title: "Feature-Conditioned Diffusion for Audio Generation"
 date: 2025-01-01
 weight: 40
-summary: "A DiffWave study comparing spectral and transformed feature representations for conditioning speech, environmental-sound and music generation."
+summary: "Investigated how different audio representations influence diffusion-based generation of speech, environmental sounds and music, identifying improved fidelity with combined Mel and CQT conditioning in the evaluated settings."
+methods_short: "DiffWave · Mel spectrograms · MFCC · CQT · KLT · Fréchet Audio Distance"
 status: completed
 tags: [Research, Diffusion Models, Audio Signal Processing, Temporal Representation Learning, Homepage Featured]
 featured: true

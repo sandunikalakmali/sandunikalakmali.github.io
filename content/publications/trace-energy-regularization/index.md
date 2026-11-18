@@ -1,5 +1,5 @@
 ---
-title: "Trace Energy Regularization for Fidelity Oriented Diffusion Models"
+title: "EnDiff: Trace Energy Regularization for Fidelity Oriented Diffusion Image Synthesis"
 authors:
   - me
   - S. Perera
@@ -13,8 +13,8 @@ date: "2026-01-01T00:00:00Z"
 weight: 10
 publication_types: ["manuscript"]
 publication:
-  name: "Submitted to the 15th International Conference on Learning Representations (ICLR 2027)"
-  short_name: "Under Review — ICLR 2027"
+  name: "Submitted to CVPR 2027"
+  short_name: "Submitted to CVPR 2027"
 peer_reviewed: false
 status: "Under Review"
 featured: false
@@ -27,6 +27,6 @@ tags:
   - Energy Regularization
 ---
 
-**Status:** Under Review — ICLR 2027
+**Status:** Submitted to CVPR 2027
 
 The linked repository contains related two-dimensional experiments and is not presented as the complete implementation of all manuscript experiments.

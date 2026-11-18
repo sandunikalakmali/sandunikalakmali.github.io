@@ -1,7 +1,8 @@
 ---
 title: "Survey Buddy"
 date: 2024-01-01
-summary: "A portable terrain-mapping system supporting GPS/sensor data capture, real-time transmission and offline visualization."
+summary: "Developed a portable terrain-mapping system for collecting GPS and sensor measurements, transmitting data wirelessly and visualizing survey information in real time or offline."
+methods_short: "GPS · Sensor fusion · Kalman filtering · nRF24L01 · Terrain visualization"
 status: completed
 tags:
   - Engineering
